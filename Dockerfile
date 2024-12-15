@@ -4,7 +4,7 @@ FROM node:16
 RUN apt-get update && apt-get install -y ffmpeg
 
 # Set up the working directory
-WORKDIR /app
+WORKDIR /
 
 # Copy application files
 COPY package*.json ./
